@@ -1,0 +1,79 @@
+server:
+  port: 8086
+#  address: 192.168.1.101
+
+spring:
+  autoconfigure:
+    exclude: com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    dynamic:
+      primary: mysql
+      datasource:
+        mysql:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://localhost:3306/auto_task_system?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true
+          username: root
+          password: 12341234
+        oracle-zd:
+          driver-class-name: oracle.jdbc.OracleDriver
+          url: jdbc:oracle:thin:@//xxx.xxx.xxx.xxx:xxx/xxxxx
+          username: xxxx
+          password: xxxxxxxxxxx
+        oracle-zg:
+          driver-class-name: oracle.jdbc.OracleDriver
+          url: jdbc:oracle:thin:@//xxx.xxx.xxx.xxx:xxx/xxxxx
+          username: xxxxxxx
+          password: xxxxxxx
+        oracle-ty:
+          driver-class-name: oracle.jdbc.OracleDriver
+          url: jdbc:oracle:thin:@//xxx.xxx.xxx.xxx:xxxx/xxxxxx
+          username: xxxxxx
+          password: xxxxxx
+      druid:
+        wall:
+          comment-allow: true
+          multi-statement-allow: true
+
+  mail:
+    host: smtp.xxxxxxx.cn
+    username: xxxxxxxxx
+    password: xxxxxxxxx
+    port: 465
+    default-encoding: utf-8
+    properties:
+      mail:
+        debug: false
+        smtp:
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            enable: true
+            socketFactory:
+              port: 465
+              class: javax.net.ssl.SSLSocketFactory
+
+  quartz:
+    properties:
+      org:
+        quartz:
+          threadPool:
+            class: org.quartz.simpl.SimpleThreadPool
+            threadCount: 1
+
+mybatis:
+  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    call-setters-on-nulls: true
+
+logging:
+  file:
+    name: log/system.log
+  logback:
+    rollingpolicy:
+      max-file-size: 1MB
+      max-history: 180
+      file-name-pattern: log/%d{yyyy-MM}/system.%d{yyyy-MM-dd}.%i.log
+
