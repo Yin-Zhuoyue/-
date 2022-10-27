@@ -20,11 +20,10 @@
 
 > 后端代码截图预览
 
-|![](https://github.com/Yin-Zhuoyue/Auto-QueryDataTask-System/blob/main/img/preview1.png)   | ![](https://github.com/Yin-Zhuoyue/Auto-QueryDataTask-System/blob/main/img/preview2.png)  |
+|![](https://github.com/Yin-Zhuoyue/Auto-QueryDataTask-System/blob/main/img/preview9.png)   | ![](https://github.com/Yin-Zhuoyue/Auto-QueryDataTask-System/blob/main/img/preview10.png)  |
 |---|---|
-|![](https://github.com/Yin-Zhuoyue/Auto-QueryDataTask-System/blob/main/img/preview3.png)   |  ![](https://github.com/Yin-Zhuoyue/Auto-QueryDataTask-System/blob/main/img/preview4.png) |
-|![](https://github.com/Yin-Zhuoyue/Auto-QueryDataTask-System/blob/main/img/preview5.png)   | ![](https://github.com/Yin-Zhuoyue/Auto-QueryDataTask-System/blob/main/img/preview6.png)  |
-|![](https://github.com/Yin-Zhuoyue/Auto-QueryDataTask-System/blob/main/img/preview7.png)   |  ![](https://github.com/Yin-Zhuoyue/Auto-QueryDataTask-System/blob/main/img/preview8.png) |
+|![](https://github.com/Yin-Zhuoyue/Auto-QueryDataTask-System/blob/main/img/preview11.png)   |  ![](https://github.com/Yin-Zhuoyue/Auto-QueryDataTask-System/blob/main/img/preview12.png) |
+
 
 ## 项目功能
 
