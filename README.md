@@ -70,7 +70,7 @@ IDE：IntelliJ IDEA 2021、VSCode
 
 ### 2、启动项目
 
-- **启动后端**：进入 back-end 文件夹，运行下面命令启动服务器
+- **启动后端**：进入 back-end 目录，运行下面命令启动服务器
 ```js
 mvn spring-boot:run
 ```
