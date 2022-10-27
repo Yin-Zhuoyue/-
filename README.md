@@ -58,19 +58,17 @@ IDE：IntelliJ IDEA 2021、VSCode
 
 <br/>
 
-### 3、修改配置文件
+## 运行
 
-1）创建数据库
-<br>
-将 `Auto-QueryDataTask-System/backend/sql` 文件夹中的 `auto_task_system.sql` 文件导入数据库。
+### 1、修改配置文件
 
-2）修改数据库相关配置
-<br>
-1.修改 `Auto-QueryDataTask-System/back-end/src/main/resources/application.yml` 文件里的mysql数据库的用户名和密码（此数据库为系统的主数据库）。
-<br>
-2.修改 `Auto-QueryDataTask-System/back-end/src/main/resources/application.yml` 文件里的其他几个数据库的配置，驱动、用户名密码等等（这些是用户需要从中取业务数据的数据库）
+1）创建数据库：将 `Auto-QueryDataTask-System/backend/sql` 文件夹中的 `auto_task_system.sql` 文件导入数据库。
 
-### 4、启动项目
+2）修改数据库相关配置：修改 `Auto-QueryDataTask-System/back-end/src/main/resources/application.yml` 文件里的mysql数据库的用户名和密码（此数据库为系统的主数据库）；修改 `Auto-QueryDataTask-System/back-end/src/main/resources/application.yml` 文件里的其他几个数据库的配置，驱动、用户名密码等等（这些是用户需要从中取业务数据的数据库）
+
+3）修改邮箱相关配置：修改 `Auto-QueryDataTask-System/back-end/src/main/resources/application.yml` 文件里的 `mail.host` `mail.username` `mail.password` 等参数（系统通过这个邮箱给用户发邮件）
+
+### 2、启动项目
 
 - **启动后端**：进入 back-end 文件夹，运行下面命令启动服务器
 ```js
